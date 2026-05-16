@@ -1,6 +1,7 @@
 *{margin:0;
   padding:0;
   box-sizing:border-box;
+  font-family: "Alyamama",'Georgia',serif;
 }
 .clockSection{
   min-height:100vh;
@@ -9,7 +10,6 @@
   flex-direction:column;
   justify-content:center;
   align-items:center;
-  font-family:'Georgia',serif;
   padding:2rem;
   position:relative;
   overflow:hidden;
@@ -38,7 +38,7 @@
 }
 
 .comment{
-  font-family:sans-serif;
+
   font-size:11px;
   letter-spacing:3px;
   color:#534AB7;
@@ -148,15 +148,7 @@
   background:#f43f5e;
   animation:rotate 60s steps(60,end) infinite;
 }
-/* .hand-sec::after{content:'';
-position:absolute;
-bottom:-18px;
-left:-3px;
-width:7px;
-height:20px;
-background:#f43f5e;
-border-radius:2px;
-} */
+
 @keyframes rotate{
   from{transform:rotate(0deg)}
   to{transform:rotate(360deg)}
@@ -173,8 +165,8 @@ border-radius:2px;
 
 .msg-overlay{
   position:absolute;
-  width: 150px;
-  height: 150px;
+  width: 170px;
+  height: 170px;
   /* inset:0; */
   border-radius:50%;
   background:rgba(10,8,26,0.95);
@@ -193,7 +185,6 @@ border-radius:2px;
 }
 
 .msg-text{
-  font-family:'Georgia',serif;
   font-size:12px;
   color:#c4b5fd;
   text-align:center;
@@ -210,7 +201,6 @@ border-radius:2px;
 }
 
 .msg-line2{
-  font-family:sans-serif;
   font-size:10px;
   color:#7c3aed;
   letter-spacing:2px;
@@ -245,7 +235,6 @@ border-radius:2px;
   50%{transform:translateX(-6px)}
 }
 .side-text{
-  font-family:sans-serif;
   font-size:10px;
   color:#4b4570;
   letter-spacing:2px;
@@ -254,7 +243,6 @@ border-radius:2px;
 
 }
 .footer{
-  font-family:sans-serif;
   font-size:10px;
   color:#2e2b4a;
   letter-spacing:3px;
