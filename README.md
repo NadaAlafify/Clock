@@ -9,8 +9,7 @@ Explore the live application here: (https://nadaalafify.github.io/Infinite-Analo
 ## Tech Stack
 - **HTML5:** Structuring the core clock container, relative hand alignment layers, and standard semantic text indicators.
 - **CSS3 (Pure CSS):** Utilizing advanced infinite `@keyframes` loops, absolute transform origins, rotation transforms, visual opacity toggles, and multi-layered box shadows.
-- **JavaScript (Vanilla):** Implemented to program the layout logic, listen to micro-interaction mouse events, and toggle structural UI message states dynamically inside the container.
-
+  
 ## Key Features and Technical Execution
 - **Infinite Analog Rotations:** Configured mechanical clock hands using continuous CSS rotation functions and specified transform-origin properties to simulate geometric clock movement.
 - **Continuous Blinking Instruction:** Designed a permanent animation loop handling text opacity alterations to guide the user to engage with the layout elements.
