@@ -13,5 +13,6 @@ Explore the live application here: (https://nadaalafify.github.io/Infinite-Analo
 ## Key Features and Technical Execution
 - **Infinite Analog Rotations:** Configured mechanical clock hands using continuous CSS rotation functions and specified transform-origin properties to simulate geometric clock movement.
 - **Continuous Blinking Instruction:** Designed a permanent animation loop handling text opacity alterations to guide the user to engage with the layout elements.
-- **Dynamic JavaScript Hover Overlay:** Programmed responsive event listeners that instantly detect mouse proximity, replacing the default inner clock interface with a centered festive text string (اقترب شهر ذي الحجة كل عام وانتم بخير).
+- **Dynamic JavaScript Hover Overlay:** Programmed responsive event listeners that instantly detect mouse proximity, replacing the default inner clock interface with a centered festive text string
+  ( اقترب الوقت على حلول شهر ذي الحجة المبارك كل عام وأنتم بخير ).
 - **Frameworkless Architecture:** Developed 100% manually to maintain processing efficiency, maximize CSS rendering speeds, and enforce raw control over complex graphic boundaries.
